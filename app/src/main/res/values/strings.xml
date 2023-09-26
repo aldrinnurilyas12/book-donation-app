@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">uas_1912500715_ab</string>
+    <string name="desk">Gerakan donasi buku bekas yang masih bisa terpakai untuk adik-adik kecil kita
+        di berbagai daerah.  Mari sama-sama donasikan buku bekas Anda untuk masa depan mereka</string>
+    <string name="base_url">http://192.168.1.6/android_api/register.php</string>
+
+
+    /*dataaktivitasRecycleView
+
+    <string-array name="project_recycle">
+        <item>Donasikan Buku bekas anda di Panti Sosial Asuhan Raksa Putra</item>
+        <item>Bantu anak jalanan mendapatkan buku layak dibaca</item>
+        <item>TBM Rumah warna muaragembong membuka donasi buku</item>
+    </string-array>
+
+    <string-array name="deskripsi">
+        <item>Ayo donasikan buku yang sudah tidak terpakai
+        untuk mereka</item>
+
+        <item>Mari kita tingkatkan literasi membaca untuk mereka</item>
+        <item>Buku lama kalian adalah buku mereka yang belum baca</item>
+
+    </string-array>
+
+    <string-array name="description">
+         <item>Peresmian Taman Bacaan ini merupakan salah  satu program bina lingkungan Surveyor Indonesia sebagai wujud kepedulian kami
+            untuk meningkatkan kualitas pendidikan dalam hal ini melalui peningkatan minat baca di kalangan anak-anak, Taman
+             bacaan saat ini sangat membutuhkan
+            Buku bekas yang layak baca.
+
+        </item>
+
+        <item>Dalam rangka mewujudkan kepedulian  untuk meningkatkan kualitas literasi membaca untuk anak jalanan, Mereka
+             sangat membutuhkan  buku bekas yang layak dibaca dan sudah tidak terpakai atau tidak dibaca lagi oleh anda bisa langsung didonasikan.
+            Jenis buku yang dikumpulkan oleh Taman Baca Pondok Inspirasi antara lain Buku Anak-anak (dongeng, komik, buku pelajaran sekolah atau umum),
+            Novel, Cerpen Buku Pengetahuan,selama buku-buku tersebut masih dalam konteks mendidik. Silahkan kami menunggu partisifasi dari teman-teman semua.
+
+        </item>
+        <item>
+            TBM Rumah Warna Bekasi yangg bertempat di Kp. Penombo Rt.001/006 Desa. Pantai Harapan Jaya Kec. Muaragembong Kab. Bekasi
+            Membuka donasi bagi anda yang Peduli pada pendidikan dan kemajuan bangsa. Peduli pada masa depan adik adiknya.
+            Yuk yg punya buku bacaan, dan dah jarang di baca atau mungkin dah hapal isi bukunya.
+        </item>
+
+    </string-array>
+
+    <string-array name="penyelenggara">
+        <item>Panti Asuhan Raksa Putra</item>
+        <item>Taman Baca Pondok Inspirasi  </item>
+        <item>TBM muara gembong</item>
+    </string-array>
+
+    <string-array name="lokasi">
+        <item> Sindangbarang, Kec. Bogor Bar, Kota Bogor,</item>
+        <item>Kembangan, Jakarta Barat</item>
+        <item>Muaragembong Kab. Bekasi</item>
+    </string-array>
+
+
+    /*stringAktivitasDonasiHorizontal
+
+    <string name="donasi1">
+        TBM KOLONG adalah taman baca yang didirikan di kolong flyover ciputat untuk menambah minat
+        baca pada anak-anak dan mengisi kegiatan positif untuk anak-anak. Mari ikut serta dalam
+        TBM KOLONG untuk berperan dalam senyum, keceriaan dan kebahagiaan pada anak-anak disini dengan cara berdonasi buku
+        bekas anda yang sudah tidak di baca lagi.
+    </string>
+
+    <string name="donasi2">
+        kegiatan berdonasi yang di lakukan oleh para donatur buku dari
+            berbagai pihak yang ingin ikut serta dalam pengembangan TBM.dalam rangka mewujudkan menaikan literasi membaca anak
+        TBM Lentera Pustaka membuka donasi buku bekas yang sudah di baca lagi seperti buku anak-anak, buku agama, buku sejarah, dan lainnya.
+    </string>
+
+
+    /*Tentangaplikasi
+
+    <string name="tentangapk">
+        Aplikasi donbuk. adalah aplikasi yang dibuat untuk memudahkan
+        para donatur buku dalam mendonasikan buku bekas/baru yang masih layak dibaca
+        oleh masyarakat di daerah Indonesia, dalam mewujudkan meningkatkan literasi membaca masyarakat aplikasi
+        ini  Berawal dari keprihatinan tentang bahan bacaan buku pada anak-anak yang semakin berkurang untuk menunjang
+        dan menentukan masa depan mereka. Anda harus mendonasikan buku sesuai ketentuan buku dan anda cukup dirumah saja Petugas kami akan mengambil
+        buku anda.
+    </string>
+
+    <string name="ketentuanbuku">
+        Dalam hal meningkatkan bahan bacaan dan literasi masyarakat tentunya memerlukan buku yang sangat informatif, sehingga
+        ketentuan buku yang dapat anda donasikan yaitu sebagai berikut :
+
+    </string>
+
+
+</resources>

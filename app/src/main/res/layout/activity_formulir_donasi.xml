@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    tools:context="com.example.book_danation_app.FormulirDonasi">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="840dp">
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:backgroundTint="#00487E">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="donbuk."
+                android:textColor="#FFFFFF"
+                android:textSize="25dp">
+
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="360dp"
+            android:layout_height="970dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-190dp"
+            android:layout_marginBottom="40dp"
+            app:cardCornerRadius="10dp"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Formulir Donasi"
+                android:textColor="@color/black"
+                android:textSize="26dp"></TextView>
+
+            <EditText
+                android:id="@+id/editTextNama"
+                android:layout_width="336dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="340dp"
+                android:background="@drawable/bg_stroke"
+                android:hint="Masukan Nama Lengkap"
+                android:paddingLeft="10dp"></EditText>
+
+            <EditText
+                android:id="@+id/editTextAlamat"
+                android:layout_width="336dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="280dp"
+                android:background="@drawable/bg_stroke"
+                android:hint="Masukan alamat"
+                android:paddingLeft="10dp"></EditText>
+
+            <EditText
+                android:id="@+id/editTextTelepon"
+                android:layout_width="336dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="220dp"
+                android:background="@drawable/bg_stroke"
+                android:hint="Masukan Nomor Telepon"
+                android:paddingLeft="10dp"></EditText>
+
+            <EditText
+                android:id="@+id/editTextTujuan"
+                android:layout_width="336dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="160dp"
+                android:background="@drawable/bg_stroke"
+                android:hint="Masukan Tujuan Donasi"
+                android:paddingLeft="10dp"></EditText>
+
+            <EditText
+                android:id="@+id/editTextJudul"
+                android:layout_width="336dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="100dp"
+                android:background="@drawable/bg_stroke"
+                android:hint="Judul Buku"
+                android:paddingLeft="10dp"></EditText>
+            <EditText
+                android:id="@+id/editTextIsbn"
+                android:layout_width="336dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/bg_stroke"
+                android:hint="ISBN Buku"
+                android:paddingLeft="10dp"></EditText>
+
+
+
+            <RelativeLayout
+
+                android:layout_marginTop="30dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/kategori_buku"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="466dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="Kategori Buku"
+                    android:textColor="@color/black"></TextView>
+
+
+                <RadioGroup
+                    android:id="@+id/radioGroupKategori"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="130dp"
+                    android:layout_marginLeft="10dp">
+
+                    <RadioButton
+                        android:id="@+id/bukusejarah"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="370dp"
+                        android:text="Buku Sejarah"
+                        android:textColor="@color/black" />
+
+                    <RadioButton
+                        android:id="@+id/bukuteknologi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Buku Teknologi dan Komputer"
+                        android:textColor="@color/black" />
+
+                    <RadioButton
+                        android:id="@+id/bukuanak"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Buku anak-anak"
+                        android:textColor="@color/black" />
+
+                    <RadioButton
+                        android:id="@+id/bukulain"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Buku bacaan"
+                        android:textColor="@color/black" />
+
+                    <RadioButton
+                        android:id="@+id/bukuagama"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Buku Pembelajaran Agama"
+                        android:textColor="@color/black" />
+
+                    <RadioButton
+                        android:id="@+id/bukuberhitung"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Buku berhitung anak"
+                        android:textColor="@color/black" />
+
+                    <RadioButton
+                        android:id="@+id/bukupengetahuan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Buku Pengetahuan Alam"
+                        android:textColor="@color/black" />
+
+                    <RadioButton
+                        android:id="@+id/novel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Novel"
+                        android:textColor="@color/black" />
+
+                </RadioGroup>
+
+
+            </RelativeLayout>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="860dp"
+                android:text="Lihat ketentuan donasi"
+                android:onClick="ketentuan"/>
+
+
+
+
+            <Button
+                android:id="@+id/buttonAdd"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="460dp"
+                android:background="@drawable/bg_stroke"
+                android:backgroundTint="#00487E"
+                android:text="Donasikan"
+                android:textSize="20dp"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textColor="@color/white"></Button>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

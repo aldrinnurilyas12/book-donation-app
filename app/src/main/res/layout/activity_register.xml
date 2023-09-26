@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context="com.example.book_danation_app.register">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/nunito_sans_extrabold"
+        android:text="Daftar Akun"
+        android:textColor="#00487E"
+        android:textSize="35dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/nunito"
+        android:text="Daftarkan akun anda"
+        android:textColor="#8F8F8F"
+        android:textSize="15dp">
+
+    </TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="165dp"
+        android:fontFamily="@font/nunito_sans_bold"
+        android:text="Nama Lengkap"
+        android:textColor="#000000"
+        android:textSize="15dp">
+
+    </TextView>
+
+
+    <EditText
+        android:id="@+id/namelengkapTxt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="190dp"
+        android:background="@drawable/borderradius"
+        android:paddingLeft="5dp"
+        android:textColor="#24374D"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="255dp"
+        android:fontFamily="@font/nunito_sans_bold"
+        android:text="Alamat "
+        android:textColor="#000000"
+        android:textSize="15dp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/alamatTxt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/borderradius"
+        android:paddingLeft="5dp"
+        android:textColor="#24374D"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:fontFamily="@font/nunito_sans_bold"
+        android:text="Nama Pengguna"
+        android:textColor="#000000"
+        android:textSize="15dp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/namapenggunaTxt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="375dp"
+        android:background="@drawable/borderradius"
+        android:paddingLeft="5dp"
+        android:textColor="#24374D"></EditText>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:fontFamily="@font/nunito_sans_bold"
+        android:text="Kata Sandi "
+        android:textColor="#000000"
+        android:textSize="15dp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/katasandiTxt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="475dp"
+        android:background="@drawable/borderradius"
+        android:inputType="textPassword"
+        android:paddingLeft="5dp"
+        android:textColor="#24374D"></EditText>
+
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="560dp"
+        android:background="@drawable/backgroundcolor"
+        android:fontFamily="@font/nunito_sans_bold"
+        android:text="Daftar"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"></Button>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="650dp"
+        android:fontFamily="@font/nunito"
+        android:text="Sudah mempunyai akun?"
+        android:textColor="@color/black"
+        android:textSize="16dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="650dp"
+        android:fontFamily="@font/nunito_sans_bold"
+        android:onClick="masuk"
+        android:text="Masuk"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold"></TextView>
+
+</RelativeLayout>

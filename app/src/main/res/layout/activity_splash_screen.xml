@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00487E"
+
+    tools:context="com.example.book_danation_app.splash_screen">
+
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="310dp"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:text="donbuk."
+        android:textColor="@color/white"
+        android:textSize="35dp">
+
+    </TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="680dp"
+        android:fontFamily="@font/roboto"
+        android:text="Ver 1.0"
+        android:textColor="@color/white"
+        android:textSize="15dp">
+
+    </TextView>
+
+</RelativeLayout>

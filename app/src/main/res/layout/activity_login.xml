@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f9fa"
+    android:padding="30dp"
+
+    tools:context="com.example.book_danation_app.login">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:fontFamily="@font/nunito_sans_extrabold"
+
+        android:gravity="center"
+        android:text="DonBook"
+        android:textColor="#2288E5"
+        android:textSize="35dp"></TextView>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="163dp"
+        android:fontFamily="@font/nunito_sans_bold"
+        android:text="Nama Pengguna"
+        android:textColor="#000000"
+        android:textSize="15dp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/usernameTxt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="190dp"
+        android:background="@drawable/borderradius"
+        android:paddingLeft="5dp"
+        android:textColor="#24374D"></EditText>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="253dp"
+        android:fontFamily="@font/nunito_sans_bold"
+        android:text="Kata sandi"
+        android:textColor="#000000"
+        android:textSize="15dp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/katasandiTxt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/borderradius"
+        android:inputType="textPassword"
+        android:paddingLeft="5dp"
+        android:password="true"
+        android:textColor="#24374D"></EditText>
+
+    <CheckBox
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="330dp"
+        android:text="Ingat Masuk Saya">
+
+    </CheckBox>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="380dp"
+        android:background="@drawable/backgroundcolor"
+        android:fontFamily="@font/nunito_sans_bold"
+        android:onClick="tologin"
+        android:text="Masuk"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"></Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="450dp"
+        android:fontFamily="@font/nunito"
+        android:text="Anda belum mempunyai akun?"
+        android:textColor="@color/black"
+        android:textSize="16dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="450dp"
+        android:onClick="todaftar"
+        android:text="Daftar"
+        android:textColor="@color/black"
+        android:fontFamily="@font/nunito_sans_bold"
+        android:textSize="16dp"
+        android:textStyle="bold"></TextView>
+
+</RelativeLayout>

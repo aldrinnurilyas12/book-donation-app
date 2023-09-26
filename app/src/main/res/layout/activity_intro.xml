@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.book_danation_app.introActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="290dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="-28dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/introo"></ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/radius"
+        android:backgroundTint="@color/white"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="Berdonasi buku membantu mereka meningkatkan literasi membaca"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="28dp"
+            android:textStyle="bold">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/nunito"
+            android:text="@string/desk"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:textStyle="normal">
+
+        </TextView>
+
+
+
+        <Button
+            android:id="@+id/intro"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/backgroundcolor"
+            android:backgroundTint="#00487E"
+            android:fontFamily="@font/nunito_sans_bold"
+            android:onClick="intro"
+            android:text="Ayo Donasi"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18dp"></Button>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

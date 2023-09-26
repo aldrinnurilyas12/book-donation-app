@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="#f8f9fa"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    tools:context="com.example.book_danation_app.beranda">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="900dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="40dp"
+            android:onClick="about"
+            android:src="@drawable/menubar"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="donbuk."
+            android:textColor="#00487E"
+            android:textSize="28dp">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:fontFamily="@font/nunito_sans_bold"
+            android:text="Selamat datang"
+            android:textColor="@color/black"
+            android:textSize="18dp"></TextView>
+
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:layout_marginTop="270dp"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="245dp"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/donasisatu"
+                    android:layout_width="320dp"
+                    android:layout_height="240dp"
+                    android:background="@color/white"
+                    android:onClick="donasisatu"
+                    app:cardCornerRadius="6dp">
+
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="140dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/tamanbaca"></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="160dp"
+                        android:fontFamily="@font/nunito_sans_bold"
+                        android:paddingLeft="8dp"
+                        android:text="Taman Baca Kolong Flyover Ciputat membutuhkan donasi buku bekas "
+                        android:textColor="@color/black"
+                        android:textSize="18dp"></TextView>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="320dp"
+                    android:layout_height="240dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/white"
+                    android:onClick="donasidua"
+                    app:cardCornerRadius="6dp">
+
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="140dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/kesatu">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="160dp"
+                        android:fontFamily="@font/nunito_sans_bold"
+                        android:paddingLeft="8dp"
+                        android:text=" Taman Baca Lentera Pustaka buka donasi buku bekas layak baca"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"></TextView>
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+        <TextView
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="125dp"
+            android:fontFamily="@font/nunito"
+            android:text="5 Donasi tersedia hari ini "
+            android:textColor="#979797"
+            android:textSize="15dp"></TextView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="170dp"
+            android:backgroundTint="#F3F4F4"
+            android:onClick="tolihatrincian"
+            app:cardCornerRadius="6dp">
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/list">
+
+            </ImageView>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/roboto_bold"
+                android:padding="10dp"
+                android:text="Riwayat Donasi"
+                android:textColor="#0C0B0B"></TextView>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="240dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="Donasi terbaru saat ini"
+            android:textColor="@color/black"
+            android:textSize="18dp"></TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="560dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="Donasikan Buku bekas anda"
+            android:textColor="@color/black"
+            android:textSize="18dp"></TextView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="590dp"
+            android:orientation="horizontal" />
+    </RelativeLayout>
+
+</ScrollView>

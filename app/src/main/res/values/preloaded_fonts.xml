@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/montaga</item>
+        <item>@font/nunito</item>
+        <item>@font/nunito_sans_bold</item>
+        <item>@font/nunito_sans_extrabold</item>
+        <item>@font/nunito_semibold</item>
+        <item>@font/poppins</item>
+        <item>@font/poppins_medium</item>
+        <item>@font/roboto</item>
+        <item>@font/roboto_bold</item>
+        <item>@font/roboto_medium</item>
+        <item>@font/roboto_mono</item>
+    </array>
+</resources>

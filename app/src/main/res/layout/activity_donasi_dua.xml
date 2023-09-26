@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:scrollbars="none"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="AktfitasDonasi.donasiDua">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/mainImageView"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:background="@drawable/radiusbawah"
+            android:src="@drawable/kesatu"
+            android:scaleType="centerCrop"
+            app:shapeAppearance="@style/Rounded"
+            app:srcCompat="@android:mipmap/sym_def_app_icon" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="310dp"
+            android:layout_height="98dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="230dp"
+            android:backgroundTint="#FFFFFF"
+            app:cardCornerRadius="10dp">
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="150dp"
+                android:layout_width="1dp"
+                android:layout_height="70dp"
+                android:background="#DDDDDD">
+            </View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/nunito_sans_bold"
+                android:text="Penyelenggara"
+                android:textColor="@color/black"
+                android:textSize="16dp"></TextView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/nunito_sans_bold"
+                android:text="Lokasi"
+                android:textColor="@color/black"
+                android:textSize="16dp"></TextView>
+
+            <TextView
+                android:id="@+id/myText4"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="34dp"
+                android:fontFamily="@font/nunito"
+                android:text="TBM Lentera Pustaka"
+                android:textColor="#424242"
+                android:textSize="13dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/myText5"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="34dp"
+                android:fontFamily="@font/nunito"
+                android:text="Jl. Masjid Nurul Iman Kampung No.77, Tamansari, Bogor"
+                android:textColor="#424242"
+                android:textSize="13dp">
+
+            </TextView>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textjudul"
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mainImageView"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="80dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:paddingLeft="10dp"
+            android:text="Taman Baca Lentera Pustaka buka donasi buku bekas layak baca"
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/myText3"
+            android:layout_width="395dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textjudul"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/nunito"
+            android:padding="10dp"
+            android:text="@string/donasi2"
+            android:textColor="#4E4E4E">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/kebutuhan"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/myText3"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/nunito_sans_bold"
+            android:text="Kebutuhan Buku saat ini"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:id="@+id/action3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kebutuhan"
+
+            android:layout_marginTop="15dp"
+            android:src="@drawable/bookk" />
+
+        <TextView
+            android:id="@+id/pesan"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/action3"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="-2dp"
+            android:fontFamily="@font/nunito"
+            android:text="Selain buku diatas anda bisa donasikan buku lain sesuai ketentuan donasi"
+            android:textSize="13dp"></TextView>
+
+        <Button
+            android:layout_width="330dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/pesan"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/backgroundcolor"
+            android:backgroundTint="#00487E"
+            android:fontFamily="@font/nunito_sans_bold"
+            android:onClick="keformulir"
+            android:paddingRight="10dp"
+            android:text="Donasi"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

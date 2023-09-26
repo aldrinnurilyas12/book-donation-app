@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+
+
+    android:scrollbars="none"
+    android:paddingBottom="16dp"
+    tools:context="com.example.book_danation_app.TampilSemuaPgw">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/nunito_sans_bold"
+        android:text="Riwayat Donasi Anda"
+        android:textColor="@color/black"
+        android:textSize="20dp"></TextView>
+
+    <ListView
+    android:divider="@null"
+        android:dividerHeight="0dp"
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:scrollbars="none" />
+
+
+</RelativeLayout>
